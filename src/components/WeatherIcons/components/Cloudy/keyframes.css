@@ -1,0 +1,32 @@
+@keyframes cloudyCloudOne {
+  0% {
+    transform:
+      translate(-50%, -50%)
+      translateX(0);
+  }
+  50% {
+    transform:
+      translate(-50%, -50%)
+      translateX(8%);
+  }
+  100% {
+    transform:
+      translate(-50%, -50%)
+      translateX(0);
+  }
+}
+
+@keyframes cloudyCloudTwo {
+  0% {
+    transform:
+      translateX(0)
+  }
+  50% {
+    transform:
+      translateX(-8%)
+  }
+  100% {
+    transform:
+      translateX(0)
+  }
+}

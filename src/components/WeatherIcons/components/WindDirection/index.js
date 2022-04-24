@@ -1,0 +1,1 @@
+export { default as WindDirection } from './WindDirection.component'

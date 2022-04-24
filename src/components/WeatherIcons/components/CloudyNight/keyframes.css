@@ -1,0 +1,35 @@
+@keyframes cloudyNightMoon {
+  0% {
+    transform: rotate(-170deg);
+  }
+  50% {
+    transform: rotate(-155deg);
+  }
+  100% {
+    transform: rotate(-170deg);
+  }
+}
+
+@keyframes cloudyNightCloud {
+  0% {
+    transform: translate(-50%, -50%) translateX(-5%);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateX(3%);
+  }
+  100% {
+    transform: translate(-50%, -50%) translateX(-5%);
+  }
+}
+
+@keyframes cloudyNightStar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

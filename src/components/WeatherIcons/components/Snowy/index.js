@@ -1,0 +1,1 @@
+export { default as Snowy } from './Snowy.component'

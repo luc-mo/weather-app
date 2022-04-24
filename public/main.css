@@ -1,0 +1,16 @@
+@font-face {
+  font-family: open-sans;
+  src: url('./fonts/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: open-sans;
+  src: url('./fonts/OpenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('./fonts/Raleway.ttf') format('truetype');
+}

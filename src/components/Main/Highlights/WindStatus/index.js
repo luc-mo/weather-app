@@ -1,0 +1,1 @@
+export { default as WindStatus } from './WindStatus.component'

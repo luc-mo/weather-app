@@ -1,0 +1,29 @@
+@keyframes snowyCloud {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-8%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes snowySnow {
+  0% {
+    transform: translateX(-40%) translateY(0);
+  }
+  25% {
+    transform: translateX(40%) translateY(88%);
+  }
+  50% {
+    transform: translateX(-40%) translateY(175%);
+  }
+  75% {
+    transform: translateX(40%) translateY(263%);
+  }
+  100% {
+    transform: translateX(-40%) translateY(350%);
+  }
+}

@@ -1,0 +1,59 @@
+@keyframes fogOneLeft {
+  0% {
+    transform: rotateX(180deg) translateX(-5%);
+    opacity: 1;
+  }
+  50% {
+    transform: rotateX(180deg) translateX(5%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotateX(180deg) translateX(-5%);
+    opacity: 1;
+  }
+}
+
+@keyframes fogTwoLeft {
+  0% {
+    transform: translateX(-5%);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(5%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(-5%);
+    opacity: 1;
+  }
+}
+
+@keyframes fogThreeRight {
+  0% {
+    transform: translateX(5%);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-5%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(5%);
+    opacity: 1;
+  }
+}
+
+@keyframes fogFourRight {
+  0% {
+    transform: rotateX(180deg) translateX(5%);
+    opacity: 1;
+  }
+  50% {
+    transform: rotateX(180deg) translateX(-5%);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotateX(180deg) translateX(5%);
+    opacity: 1;
+  }
+}

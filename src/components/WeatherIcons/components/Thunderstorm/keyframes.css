@@ -1,0 +1,50 @@
+@keyframes thunderstormCloudOne {
+  0% {
+    transform: translate(-50%, -50%) translateX(0)
+  }
+  50% {
+    transform: translate(-50%, -50%) translateX(3%)
+  }
+  100% {
+    transform: translate(-50%, -50%) translateX(0)
+  }
+}
+
+@keyframes thunderstormCloudTwo {
+  0% {
+    transform: translateX(0)
+  }
+  50% {
+    transform: translateX(-8%)
+  }
+  100% {
+    transform: translateX(0)
+  }
+}
+
+@keyframes thunderstormThunder {
+  0% {
+    transform: translateY(18%)
+  }
+  8% {
+    transform: translateY(16%)
+  }
+  16% {
+    transform: translateY(23%)
+  }
+  25% {
+    transform: translateY(4%)
+  }
+  33% {
+    transform: translateY(23%)
+  }
+  41% {
+    transform: translateY(16%)
+  }
+  50% {
+    transform: translateY(18%)
+  }
+  100% {
+    transform: translateY(18%)
+  }
+}

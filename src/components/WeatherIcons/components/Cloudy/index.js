@@ -1,0 +1,1 @@
+export { default as Cloudy } from './Cloudy.component'

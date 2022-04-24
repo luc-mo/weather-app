@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1'/>
+    <title>Current weather and forecast</title>
+    <meta
+      name='description'
+      content='Get current weather, weekly forecast and highlights of the day'
+    />
+    <meta
+      name='og:image'
+      content='%PUBLIC_URL%/preview.jpg'
+    />
+    <link rel='stylesheet' href='%PUBLIC_URL%/main.css'>
+    <link rel='icon' href='%PUBLIC_URL%/favicon.svg'/>
+    <link rel='manifest' href='%PUBLIC_URL%/manifest.json'/>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id='root'></div>
+    <script
+      src='https://maps.googleapis.com/maps/api/js?key=%REACT_APP_MAPS_API_KEY%&v=weekly&libraries=places'
+      defer
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+@keyframes cloudyDaySun {
+  from { transform: rotate(0deg); }  
+  to { transform: rotate(360deg); }  
+}
+
+@keyframes cloudyDayCloud {
+  0% {
+    transform: translate(-50%, -50%) translateX(0);
+  }
+  50% {
+    transform: translate(-50%, -50%) translateX(8%);
+  }
+  100% {
+    transform: translate(-50%, -50%) translateX(0);
+  }
+}
