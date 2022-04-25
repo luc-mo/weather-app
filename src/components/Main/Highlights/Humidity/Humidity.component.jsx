@@ -1,12 +1,13 @@
 import { useReducers } from 'hooks'
 import * as S from './Humidity.styles'
+import { S as H } from 'components/Main/Highlights'
 
 function Humidity() {
   const { current } = useReducers('weather')
 
   return <S.Humidity>
-    <S.Title>Humidity</S.Title>
-    <S.Value>{current.humidity}%</S.Value>
+    <H.H3>Humidity</H.H3>
+    <H.Value>{current.humidity}%</H.Value>
     <S.Container>
       <S.Progress
         min={0}

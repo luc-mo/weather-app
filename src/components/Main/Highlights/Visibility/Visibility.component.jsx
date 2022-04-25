@@ -1,16 +1,17 @@
 import { useMemo } from 'react'
 import { useReducers } from 'hooks'
 import * as S from './Visibility.styles'
+import { S as H } from 'components/Main/Highlights'
 
 function Visibility() {
   const { current } = useReducers('weather')
   const visibility = useMemo(() => current.visibility / 1000, [current])
 
   return <S.Visibility>
-    <S.Title>Visibility</S.Title>
-    <S.Value>
+    <H.H3>Visibility</H.H3>
+    <H.Value>
       {visibility} km
-    </S.Value>
+    </H.Value>
   </S.Visibility>
 }
 

@@ -12,15 +12,6 @@ export const Humidity = styled.article`
   gap: 1rem;
 `
 
-export const Title = styled.h3`
-  font-size: 2.4rem;
-`
-
-export const Value = styled.p`
-  font-size: 4.6rem;
-  letter-spacing: 2px;
-`
-
 const Content = css`
   position: absolute;
   top: 50%;
@@ -33,15 +24,20 @@ export const Container = styled.div`
   position: relative;
   width: 70%;
   height: 1rem;
-  &::before {
-    ${Content}
-    left: -3rem;
-    content: '0%';  
+  @media (min-width: 730px) {
+    &::before {
+      ${Content}
+      left: -3rem;
+      content: '0%';  
+    }
+    &::after {
+      ${Content}
+      right: -4.6rem;
+      content: '100%';
+    }
   }
-  &::after {
-    ${Content}
-    right: -4.6rem;
-    content: '100%';
+  @media (max-width: 730px) {
+    width: 80%;
   }
 `
 
