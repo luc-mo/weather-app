@@ -5,6 +5,9 @@ export const Forecast = styled.article`
   ${S.CenterContent}
   justify-content: space-between;
   flex-direction: column;
+  max-width: 29rem;
+  width: 100%;
+  margin: 0 auto;
   padding: 2rem;
   background-color: ${S.colors.blue};
   border-radius: 6px;
