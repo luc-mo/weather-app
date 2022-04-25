@@ -10,13 +10,11 @@ export const Sidebar = styled.aside`
   background-color: ${S.colors.blue};
   padding: 2rem 0;
   padding-bottom: 4rem;
-  @media (min-aspect-ratio: 3/4) {
-    max-width: 33rem;
-    min-width: 30rem;
-    flex-grow: 1;
-  }
-  @media (max-aspect-ratio: 3/4) {
+  min-width: 30rem;
+  max-width: 33rem;
+  flex-grow: 1;
+  @media (max-width: 730px) {
     position: static;
-    width: 100%;
+    min-width: 100%;
   }
 `
